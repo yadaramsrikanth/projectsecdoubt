@@ -1,0 +1,134 @@
+.account-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.account-container {
+  background-color: #ffffff;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin: 35px 50px 35px 160px;
+}
+.account-heading {
+  font-weight: 700;
+  font-size: 36px;
+  color: #131313;
+}
+.horizontal-line {
+  width: 1160px;
+  height: 2px;
+  color: #cbd5e1;
+}
+.membership-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.membership-para {
+  color: #94a3b8;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.login-user-name {
+  color: #1e293b;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 15px;
+}
+.password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.password {
+  color: #64748b;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 0px;
+}
+.plan-details {
+  color: #94a3b8;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Premium {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.plan-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ultra-hd {
+  color: #1e293b;
+  font-size: 800;
+  font-weight: 18px;
+  padding: 2px 4px 2px 4px;
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+}
+.log-out-button {
+  margin-top: 20px;
+  align-self: center;
+  background-color: #e50914;
+  width: 90px;
+  height: 35px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .account-main-bg-container {
+    width: 360px;
+  }
+  .account-container {
+    margin: 10px 10px 10px 10px;
+  }
+  .account-heading {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .horizontal-line {
+    width: 295px;
+  }
+  .membership-para {
+    font-size: 16px;
+  }
+  .login-user-name {
+    font-size: 18px;
+  }
+  .password-container {
+    margin-left: 110px;
+  }
+  .password {
+    font-size: 16px;
+  }
+  .plan-details {
+    font-size: 18px;
+  }
+  .Premium{
+    font-size: 16px;
+  }
+  .ultra-hd{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .log-out-button{
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.social-media-container {
+  background-color: #0c0b10;
+  min-height: 30vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apps-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 185px;
+}
+.icons {
+  font-size: 20px;
+}
+.contact-us {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+

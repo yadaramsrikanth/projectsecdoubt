@@ -1,0 +1,18 @@
+.movie-card {
+  height: 255px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.movie-list-item {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-card {
+    height: 100px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}

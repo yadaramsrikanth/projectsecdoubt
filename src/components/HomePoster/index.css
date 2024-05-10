@@ -1,0 +1,52 @@
+.home-poster-container {
+  background-size: cover;
+  width: 1440px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 150px;
+}
+.super-man-heading {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+.super-man-para {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 800px;
+}
+.play-button {
+  background-color: #ffffff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 4px;
+  border: none;
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 600;
+  width: 74px;
+}
+@media screen and (max-width: 768px) {
+  .home-poster-container {
+    width: 360px;
+    height: 427px;
+    padding: 10px;
+  }
+  .super-man-heading {
+    font-size: 32px;
+    width: 176px;
+    font-weight: 500;
+  }
+  .super-man-para {
+    font-size: 16px;
+    width: 296px;
+    font-weight: 400;
+  }
+}

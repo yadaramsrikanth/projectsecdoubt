@@ -1,0 +1,117 @@
+.search-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+  min-height: 100vh;
+  width: 1440px;
+}
+.search-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.search-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.search-not-found-image {
+  width: 30%;
+  height: 275px;
+}
+.search-not-found-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.search-failure-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  color: #171f46;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px 12px 24px;
+}
+
+.results-view-container {
+  display: flex;
+  flex-direction: column;
+}
+.no-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no-movies-image {
+  width: 450px;
+  height: 378px;
+}
+.no-list-length-para {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.unordered-search-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-main-bg-container {
+    width: 360px;
+  }
+  .search-bg-container {
+    width: 360px;
+  }
+  .search-loading-container {
+    width: 360px;
+  }
+  .search-failure-container {
+    width: 360px;
+  }
+  .search-not-found-image {
+    width: 230px;
+    height: 172px;
+  }
+  .search-not-found-text {
+    font-size: 16px;
+  }
+  .search-failure-button {
+    padding: 8px 24px 8px 24px;
+  }
+  .no-movies-image {
+    width: 210px;
+    height: 176px;
+  }
+  .no-list-length-para {
+    font-size: 16px;
+  }
+  .no-items-container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .unordered-search-container {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .results-view-container {
+    width: 360px;
+  }
+}
